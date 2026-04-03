@@ -1,0 +1,21 @@
+{
+  "name": "digitalcourier-backend",
+  "private": true,
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "*",
+    "express": "*",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
